@@ -24,15 +24,3 @@ This project solves that by loading a **Word2Vec** model via **Gensim** to repre
 * **Vector Math:** NumPy, Scikit-learn (Cosine Similarity)
 * **UI (Optional):** Streamlit
 
-## Project Structure
-~
-├── models/                # Saved Word2Vec models
-├── data/                  # Resumes and Job Descriptions
-├── src/
-│   ├── parser.py          # PDF and Word document text extractors
-│   ├── preprocess.py      # Lowercasing, stop-word removal, tokenization
-│   └── vector_engine.py   # Gensim Word2Vec averaging & similarity logic
-├── app.py                 # Main execution file
-├── requirements.txt
-└── README.md
-~
