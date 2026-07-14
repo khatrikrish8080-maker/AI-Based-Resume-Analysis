@@ -25,6 +25,7 @@ This project solves that by loading a **Word2Vec** model via **Gensim** to repre
 * **UI (Optional):** Streamlit
 
 ## Project Structure
+~
 ├── models/                # Saved Word2Vec models
 ├── data/                  # Resumes and Job Descriptions
 ├── src/
@@ -34,3 +35,4 @@ This project solves that by loading a **Word2Vec** model via **Gensim** to repre
 ├── app.py                 # Main execution file
 ├── requirements.txt
 └── README.md
+~
